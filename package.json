@@ -4,7 +4,8 @@
   "description": "OneName app",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node api.spec.js",
+    "open": "browserify . > bundle.js && opn --no-wait index.html"
   },
   "author": "Ben Drucker <bvdrucker@gmail.com> (http://bendrucker.me)",
   "license": "MIT",
@@ -15,6 +16,7 @@
   },
   "devDependencies": {
     "browserify": "~10.2.4",
+    "opn-cli": "~1.0.0",
     "tape": "~4.0.0"
   }
 }
