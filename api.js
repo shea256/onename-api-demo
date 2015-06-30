@@ -1,13 +1,12 @@
 'use strict'
 
-var get = require('got').get
+var fred = require('./fred.json')
 
 module.exports = function () {
   return {
     getProfile: getProfile
   }
   function getProfile (username, callback) {
-    var options = {json: true}
-    get('https://onename.com/api/users?usernames=' + username, options, callback)
+    process.nextTick(callback.bind(null, null, fred))
   }
 }

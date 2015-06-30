@@ -1,0 +1,39 @@
+{
+  "fredwilson": {
+    "profile": {
+      "graph": {
+        "url": "https://s3.amazonaws.com/grph/fredwilson"
+      },
+      "avatar": {
+        "url": "https://s3.amazonaws.com/kd4/fredwilson1"
+      },
+      "location": {
+        "formatted": "New York City"
+      },
+      "v": "0.2",
+      "name": {
+        "formatted": "Fred Wilson"
+      },
+      "website": "http://avc.com",
+      "bitcoin": {
+        "address": "1Fbi3WDPEK6FxKppCXReCPFTgr9KhWhNB7"
+      },
+      "twitter": {
+        "proof": {
+          "url": "https://twitter.com/fredwilson/status/533040726146162689"
+        },
+        "username": "fredwilson"
+      },
+      "facebook": {
+        "proof": {
+          "url": "https://facebook.com/fred.wilson.963871/posts/10100401430876108"
+        },
+        "username": "fred.wilson.963871"
+      },
+      "cover": {
+        "url": "https://s3.amazonaws.com/dx3/fredwilson"
+      },
+      "bio": "I am a VC"
+    }
+  }
+}

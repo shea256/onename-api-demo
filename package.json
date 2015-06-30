@@ -14,7 +14,7 @@
     "observ-struct": "~6.0.0"
   },
   "devDependencies": {
-    "tap-difflet": "~0.3.0",
+    "browserify": "~10.2.4",
     "tape": "~4.0.0"
   }
 }
