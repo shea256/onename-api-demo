@@ -1,0 +1,20 @@
+{
+  "name": "onename-app",
+  "version": "1.0.0",
+  "description": "OneName app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ben Drucker <bvdrucker@gmail.com> (http://bendrucker.me)",
+  "license": "MIT",
+  "dependencies": {
+    "base-element": "~3.0.1",
+    "got": "~3.3.0",
+    "observ-struct": "~6.0.0"
+  },
+  "devDependencies": {
+    "tap-difflet": "~0.3.0",
+    "tape": "~4.0.0"
+  }
+}
