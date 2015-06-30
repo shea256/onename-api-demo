@@ -2,15 +2,12 @@
 
 var get = require('got').get
 
-module.exports = function (id, token) {
-  var authQuery = {
-    'app-id': id,
-    'app-secret': token
-  }
+module.exports = function () {
   return {
     getProfile: getProfile
   }
   function getProfile (username, callback) {
-    get('https://api.onename.com/v1/users/fredwilson', {query: authQuery, json: true}, callback)
+    var options = {json: true}
+    get('https://onename.com/api/users?usernames=' + username, options, callback)
   }
 }
